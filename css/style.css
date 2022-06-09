@@ -1,0 +1,219 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #faf4f2;
+}
+.header{
+    background-color: #f8e1db;
+    /*Hex : #rrggbb*/
+    width: 100%;
+    
+    padding: 10px 40px ;
+}
+.header img{
+    width: 70px;
+}
+.header .navbar{
+    margin-top: 10px;
+}
+.header .navbar a{
+    padding: 5px;
+    margin-right: 20px ;
+    text-decoration: none;
+    color: black;
+    font-size:18px;
+    font-weight: 500;
+}
+.header .navbar a:hover{
+    color: rgb(32, 203, 255);
+    background-color: rgba(255, 255, 255, 0.438);
+    border-radius:15px;
+}
+.slider{
+    height: 900px;
+    background-image: url(../Image/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.activity{
+    padding: 80px 0;
+}
+.activity .activity-title{
+    text-align: center;
+}
+.activity .activity-title h2{
+    font-size:30px;
+    color: #8d8d8d;
+    margin-bottom: 50px;
+}
+.activity .main .row .col{
+    float: left;
+    width: 25%;
+    padding:0 15px ;
+    box-sizing: border-box;
+}
+.activity .main .item{
+    background-color: #ffff;
+    border-radius: 15px;
+    padding:30px;
+    text-align: center;
+}
+.activity .main .item .thump{
+    position: relative;
+}
+.activity .main .item .thump img{
+    width: 100%;
+    border-radius: 15px;
+}
+.activity .main .item .thump i{
+    position:absolute;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    top: 10px;
+    right: 20px;
+    padding:10px;
+    color: pink;
+    font-size: 20px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 15px;    
+}
+.activity .main .item h1{
+    font-size:25px;
+}
+.activity .main .item p{
+    color: #8d8d8d;
+    line-height:30px;
+}
+.activity .main .item a{
+    display: inline-block;
+    padding:10px 30px;
+    text-decoration: none;
+    background-color: #e8e8e8;
+    color: #8d8d8d;
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+.activity .main .item a:hover{
+    background-color: grey;
+    color: white;
+}
+.activity .main {
+    text-align: center;
+}
+
+.activity .main .button a{
+    display: inline-block;
+    font-size: 20px;
+    padding:10px 30px;
+    margin-top: 50px;
+    color: rgb(250, 61, 92);
+    border:1px solid rgb(250, 61, 92);
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.activity .main .button a:hover{
+    
+    background-color:grey;
+    cursor: pointer;
+    color: white;
+    border: white solid;
+}
+.contact{
+    position: relative;
+    background-color: #f8e1db;
+    height: 400px;
+    border-radius:20px;
+}
+.contact .contact_left{
+    position: absolute;
+    width: 100%;
+    
+}
+/* .contact .contact_left .img_1{
+    position: absolute;
+} */
+.contact .contact_left .img_2{
+    background-image: url(../Image/mask.png);
+    background-repeat: no-repeat;
+    background-size: 1500px 425px;
+    background-position: unset;
+    margin-left: -367px;
+}
+.contact .contact_left .img_2 img{
+    margin-left: 425px;
+    margin-top: 20px;
+    padding-bottom: 25px;
+}
+.contact .contact_right {
+    position: absolute;
+    margin: auto 0px;
+    right:100px;
+    top:100px;
+}
+.contact .contact_decription_top{
+    padding-bottom: 20px;
+    color: #8d8d8d;
+} 
+.contact .contact_decription_top h2{
+    padding-bottom: 15px;
+}
+.contact .contact_decription_bot{
+    color: #8d8d8d;
+    font-weight: bold;
+}
+.contact_decription_bot p{
+    padding-bottom: 20px;
+}
+.contact .contact_decription_bot .dowload{
+    float: left;
+    margin-right: 10px;
+}
+.contact .contact_decription_bot .social{
+    padding-left:5px ;
+}
+.contact .contact_decription_bot .social a{
+    color: #e77052;
+    font-size: 20px;
+}
+.footer .container{
+    border-top-left-radius: 50px;
+    border-top-right-radius:50px;
+    margin-top:100px;
+    background-color: #f8e1db;
+
+}
+.footer .container .row .col{
+    float:left;
+    width: 20%;
+    padding:50px ;
+}
+.footer .container .row .col_description{
+    width: 40%;
+}
+.footer .container .row .col span{
+    font-weight: 700;
+}
+.footer .container .row .col p{
+    margin-top:25px;
+    line-height: 30px; 
+}
+.footer .container .row .col ul {
+    margin-top:20px;
+    list-style: none;
+}
+.footer .container .row .col ul li a{
+    text-decoration: none;
+    color: #000000;
+    line-height: 30px;
+}
+.footer .container .row .copyright p{
+    text-align: center;
+}
+
